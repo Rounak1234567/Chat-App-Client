@@ -42,7 +42,7 @@ html, body {
       color: #fff !important;
       text-transform: uppercase;
       text-decoration: none;
-      background: #2979FF;
+      background: #4ee428;
       padding: 20px;
       border-radius: 5px;
       display: inline-block;
@@ -55,12 +55,10 @@ html, body {
   }
   
   @media (min-width: 320px) and (max-width: 480px) {
-    .joinOuterContainer {
-      height: 100%;
-    }
+    
   
     .joinInnerContainer {
-      width: 90%;
+      width: 80%;
     }
   
   
@@ -68,4 +66,5 @@ html, body {
   
   button:focus {
     outline: 0;
+    background-color: #286d00;
   }
