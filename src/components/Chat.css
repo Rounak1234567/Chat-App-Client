@@ -15,7 +15,7 @@
     border-radius: 8px;
     height: 90%;
     width: 35%;
-    padding-bottom: 50px;
+    
   }
 
   
@@ -30,8 +30,9 @@
     }
   }
   
-  @media (min-width: 480px) and (max-width: 1200px) {
+  @media screen and (max-width: 480px) {
     .container {
-      width: 60%;
+      width: 100%;
+      padding-bottom: 50px;
     }
   }
