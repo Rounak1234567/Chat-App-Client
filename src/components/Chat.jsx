@@ -28,7 +28,7 @@ const Chat = () => {
 
     useEffect(() => {
         const { name, room } = queryString.parse(window.location.search);
-        socket = io("https://chatappbyrounak.herokuapp.com/");
+        socket = io("https://chatapp-l4gk.onrender.com/");
         //console.log(name,room)
         setName(name);
         setRoom(room)
@@ -56,7 +56,7 @@ const Chat = () => {
 
         if (message) {
             const { name } = queryString.parse(window.location.search);
-            socket = io("https://chatappbyrounak.herokuapp.com/");
+            socket = io("https://chatapp-l4gk.onrender.com/");
             console.log(socket)
             socket.emit('sendMessage', {message, name}, () => setMessage(''));
         }
